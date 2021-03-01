@@ -8,6 +8,7 @@ import '../componentpage/shouye.dart';
 import '../componentpage/mypage/my.dart';
 import '../myexamples/jiaocuobuju.dart';
 import '../myexamples/xuanfubuju.dart';
+import '../myexamples/shouye01.dart';
 import '../componentpage/datachartmanagement/datachart.dart';
 
 class SignOn extends StatefulWidget {
@@ -69,7 +70,8 @@ class _SignOnState extends State<SignOn> {
             // Text('aaa'),
             Shouye(),
             // Jiaocuobuju(),
-            Xuanfubuju(),
+            // Xuanfubuju(),
+            Shouye01(),
             // Text('bbb'),
             // Text('ccc'),
             Datachart(

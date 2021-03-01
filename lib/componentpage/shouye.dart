@@ -45,7 +45,8 @@ class _ShouyeState extends State<Shouye> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: Colors.green[300],
+      // color: Colors.green[300],
+      color: Colors.white,
       // color: Color(0xFF0C9869),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
