@@ -88,7 +88,7 @@ class _JiaocuobujuState extends State<Jiaocuobuju> {
                   height: 10,
                 ),
                 Container(
-                  height: 120,
+                  height: 125,
                   width: 170,
                   color: Colors.white,
                   child: Column(
