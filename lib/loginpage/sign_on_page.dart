@@ -7,6 +7,7 @@ import 'package:flutter/material.dart';
 import '../componentpage/shouye.dart';
 import '../componentpage/mypage/my.dart';
 import '../myexamples/jiaocuobuju.dart';
+import '../myexamples/xuanfubuju.dart';
 import '../componentpage/datachartmanagement/datachart.dart';
 
 class SignOn extends StatefulWidget {
@@ -67,7 +68,8 @@ class _SignOnState extends State<SignOn> {
           children: <Widget>[
             // Text('aaa'),
             Shouye(),
-            Jiaocuobuju(),
+            // Jiaocuobuju(),
+            Xuanfubuju(),
             // Text('bbb'),
             // Text('ccc'),
             Datachart(
