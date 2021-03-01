@@ -25,6 +25,8 @@ class _XuanfubujuState extends State<Xuanfubuju> {
               margin: EdgeInsets.only(bottom: 20),
               color: Colors.yellow,
             ),
+            // Container(),
+            // Container(),
             Container(
               // padding: EdgeInsets.only(bottom: 20),
               width: 150,
@@ -34,7 +36,9 @@ class _XuanfubujuState extends State<Xuanfubuju> {
           ]),
           Container(
             color: Colors.blue,
-            child: Text('这是一行文字这是一行文字'),
+            child: Text(
+              '这是一行文字这是一行文字',
+            ),
           )
         ],
       ),
